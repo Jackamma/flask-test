@@ -1,0 +1,152 @@
+body{
+	background-repeat: repeat;
+	background-image: url(slate.gif);
+}
+
+#brand{
+	text-shadow: 0px 0px 2px white;
+	/*color: #343a40;*/
+	color: white;
+	/*font-weight: bold;*/
+	font-family: staccato;
+}
+
+/*p{
+	color: white;
+}*/
+
+.corpo{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 80px;
+	text-align: center;
+	color: white;
+}
+
+.testo-rosso {
+  color: #FF0000;
+}
+
+.testo-giallo {
+  color: #FFFF00;
+}
+
+@font-face {
+  font-family: staccato;
+  src: url(Staccato222BT-Regular.otf);
+}
+
+#ciottoliH1{
+	text-align: center;
+	font-family: staccato;
+	/*font-size: 80px;*/
+	/*color: black;
+	text-shadow: 0px 0px 10px white;*/
+}
+.didascalia {
+font-size:0.8em;
+}
+
+
+.navbar-toggler{
+	/*border-color: white;*/
+	background-color: #2e2e2e;
+}
+
+img{
+	max-width: 100%;
+  	height: auto;
+  	margin-bottom: 10px;
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-link:hover{
+	text-shadow: 0px 0px 2px white !important;
+}
+
+.dropdown-item:hover{
+	text-shadow: 0px 0px 2px white !important;
+	background-color: #1c1c1c !important;
+}
+
+.dropdown-menu{
+	background-color: #1c1c1c !important;
+}
+
+#infobottom{
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	margin-top: -50px;
+}
+
+#burg {
+	margin-top: -3px;
+}
+ 
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+  outline: none;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.carouquattro {
+  width:400px;
+}
+
+.carousei {
+  width:600px;
+}
+
+.carouotto {
+  width:800px;
+}
+
+
+#cookiesAlert{
+	text-align: center;
+	/*background-color: #1c1c1c !important;*/
+	background-color: rgba(28, 28, 28, 0.8) !important;
+	color: white !important;
+	text-shadow: 2px 2px 2px black !important;
+	display: inline-block !important;
+	margin-left: 5% !important;
+	margin-right: 5% !important;
+}
