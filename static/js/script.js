@@ -1,11 +1,11 @@
 
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
+// $(function(){
+//   $("#nav-placeholder").load("nav.html");
+// });
 
-$(function(){
-  $("#infobottom").load("infobottom.html");
-});
+// $(function(){
+//   $("#infobottom").load("templates/infobottom.html");
+// });
 
 // console.log(document.cookie.indexOf('cookieNascosto=true'));
 
@@ -14,15 +14,15 @@ $(function(){
 	console.log(C'ookie aggiunto');
 });*/
 
-function addCookie(){
-	document.cookie = 'cookieNascosto=true';
-}
+// function addCookie(){
+// 	document.cookie = 'cookieNascosto=true';
+// }
 
-if (document.cookie.indexOf('cookieNascosto=true') == -1){
-	$(function(){
-		$("#cookiesAlert").load("cookies.html");
-	});
-}
+// if (document.cookie.indexOf('cookieNascosto=true') == -1){
+// 	$(function(){
+// 		$("#cookiesAlert").load("templates/cookies.html");
+// 	});
+// }
 
 $(document).ready(function() {
 	// onLoadDropdown();
