@@ -120,9 +120,40 @@
      
 
      </ul></div></nav>
+
+	 
+
 {% endblock %}
 
+
+
 {% block footer %}
+<div style="text-align: center; margin-left: auto; margin-right: auto; margin-top: 50px;">
+	<table style="margin-right: auto; margin-left: auto; width: 50%; color: white; margin-bottom: 20px;">
+		<tr>
+			<th>Testo</th>
+			<th>Data</th>
+			<th>Opzioni</th>
+		</tr>
+		{% for task in tasks %}
+		<tr>
+		<td>{{ task.text }}</td>
+		<td>{{ task.date }}</td>
+		<td>
+			<a href="/delete/{{task.id}}">Elimina</a>
+			<br>
+			<a href="/update/{{task.id}}">Aggiorna</a>
+		</td>
+		</tr>
+		{% endfor %}
+	</table>
+	<div class="form">
+		<form action="/" method="POST">
+			<input type="text" name="content" id="content" placeholder="Inserisci task">
+			<input type="submit" value="Aggiungi">
+		</form>
+	</div>
+</div>
 
 <p class="corpo" style="text-align: center; margin-bottom: 5px;">I Ciottoli Romani S.n.c.   -- produzione marmi anticati --<br>laboratorio e vendita: via Righi, 17 Monterotondo  tel 335 6601841 - 335 6696621<br>P. IVA 05935731009</p>
 
