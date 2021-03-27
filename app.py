@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request, redirect
-import peewee
+from peewee import *
 from time import time
 
-db = peewee.SqliteDatabase('tasks.db')
+db = SqliteDatabase('tasks.db')
 
-class task(peewee.Model):
-	text = peewee.TextField()
-	date = peewee.TimestampField()
+class task(Model):
+	text = TextField()
+	date = TimestampField()
 
 	class Meta:
 
